@@ -3,11 +3,20 @@
     margin: none;
     font-family: 'Courier New', Courier, monospace;
 }
+.space{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 /* here is header sections styles  */
 header{
     background-color: #FFF8F3;
     padding: 5px;
     margin-top: 0px;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.header-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,4 +54,54 @@ nav > ul > li > a:hover{
 }
 .nav-btn > a:hover{
     color: rgb(56, 14, 209);
+}
+.nav-logo{
+    color: #FD6E0A;
+}
+/* here is banner container styles  */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner-img > img{
+    width: 385px;
+    height: auto;
+}
+
+.banner-description, h2{
+    color: rgb(148, 143, 143);
+}
+.white{
+    color: whitesmoke;
+}
+
+.color{
+    color: #FD6E0A;
+}
+
+.banner-btn1{
+    background-color: #FD6E0A;
+    color: #FFF8F3;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner-btn2{
+    color: #FD6E0A;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
 }

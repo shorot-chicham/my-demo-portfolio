@@ -1,0 +1,22 @@
+*{
+    padding: none;
+    margin: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #FFF8F3;
+    padding: 5px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}

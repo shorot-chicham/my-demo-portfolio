@@ -3,7 +3,7 @@
     margin: none;
     font-family: 'Courier New', Courier, monospace;
 }
-
+/* here is header sections styles  */
 header{
     background-color: #FFF8F3;
     padding: 5px;
@@ -19,4 +19,30 @@ nav > ul {
     align-items: center;
     gap: 20px;
     list-style: none;
+}
+
+ul > li{
+    margin-right: 20px;
+}
+nav > ul > li  a{
+    text-decoration: none;
+    color: black;
+}
+nav > ul > li > a:hover{
+    color: rgb(233, 68, 159);
+}
+
+.nav-btn > a{
+    color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 800;
+}
+.nav-btn{
+    border: none;
+    padding: 10px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+.nav-btn > a:hover{
+    color: rgb(56, 14, 209);
 }

@@ -4,17 +4,18 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .space{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 /* here is header sections styles  */
 header{
     background-color: #FFF8F3;
     padding: 5px;
     margin-top: 0px;
-    background-image: url(/images/header_bg.png);
+    background-image: url(/images/developer.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
+    background-size: contain;
 }
 .header-nav{
     display: flex;
@@ -60,10 +61,19 @@ nav > ul > li > a:hover{
 }
 /* here is banner container styles  */
 .banner-container{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right top 100%;
+    background-size: 500px;
+}
+
+.banner-info{
+    margin-left: 7%;
 }
 
 .banner-title{
@@ -72,7 +82,7 @@ nav > ul > li > a:hover{
 }
 
 .banner-img > img{
-    width: 385px;
+    width: 390px;
     height: auto;
 }
 
@@ -81,10 +91,6 @@ nav > ul > li > a:hover{
 }
 .white{
     color: whitesmoke;
-}
-
-.color{
-    color: #FD6E0A;
 }
 
 .banner-btn1{
@@ -96,6 +102,20 @@ nav > ul > li > a:hover{
     border: none;
     border-radius: 5px;
 }
+.banner-btn1 > a{
+    text-decoration: none;
+    color: White;
+}
+.banner-btn2 > a{
+    text-decoration: none;
+}
+.banner-btn2:hover{
+    background-color: whitesmoke;
+    border: 2px solid #FD6E0A;
+}
+.banner-btn2> a:hover{
+    color: #FD6E0A;
+}
 
 .banner-btn2{
     color: #FD6E0A;
@@ -103,5 +123,30 @@ nav > ul > li > a:hover{
     font-size: 17px;
     font-weight: 600;
     border-radius: 5px;
-    border: 2px solid #FD6E0A;
+    background-color: #FD6E0A;
+    border: none;
+    position: absolute;
+    margin-left: 20px;
+}
+/* here is about me container styles  */
+.about-container{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #FFF8F3;
+    padding: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.about-title{
+    font-size: 45px;
+
+}
+.about-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
 }

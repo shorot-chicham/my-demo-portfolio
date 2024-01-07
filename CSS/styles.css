@@ -150,3 +150,31 @@ nav > ul > li > a:hover{
     gap: 30px;
     margin-top: 20px;
 }
+
+/* experience info container styles start from here  */
+.experience-container{
+    margin-bottom: 50px;
+}
+
+.experience-info{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.experience-title{
+    font-size: 45px;
+}
+
+.experience-topic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.experience-item{
+    background-color: rgb(240, 237, 233);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}

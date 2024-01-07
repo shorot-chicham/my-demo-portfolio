@@ -216,12 +216,43 @@ footer{
 }
 
 .footer-container{
-    padding: 50px
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 30px;
 }
 
 .footer-icon{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     gap: 10px;
+}
+
+
+.footer-container> input, textarea{
+    display: block;
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-form> input{
+    border: none;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.footer-form> button{
+    background-color: #FD6E0A;
+    color: #FFF8F3;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
 }
